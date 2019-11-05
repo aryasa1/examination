@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>godive-timedoor</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: godive-timedoor;
+		--web-view-id: godive_timedoor;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: godive_timedoor;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#godive_timedoor {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 100%;
+		height: 3684px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: godive-timedoor;
+		--web-view-id: godive_timedoor;
+		--web-enable-deep-linking: true;
+	}
+	.banner {
+		position: absolute;
+		overflow: visible;
+		width: 1389px;
+		height: 931px;
+		left: -8px;
+		top: 0px;
+	}
+
+	.logo {
+		position: absolute;
+		overflow: visible;
+		width: 175px;
+		height: 53px;
+		left: 87px;
+		top: 55px;
+	}
+	.logo:hover {
+		transform: scale(1.035);
+	}
+	#foot {
+		filter: blur(22px);
+	}
+	.foot {
+		position: absolute;
+		overflow: visible;
+		width: 1296px;
+		height: 863px;
+		left: -16px;
+		top: 2927px;
+	}
+	#image_about {
+		position: absolute;
+		width: 664px;
+		height: 359px;
+		left: 478px;
+		top: 995px;
+		overflow: visible;
+	}
+	.jakob_owens_303084_unsplash {
+		position: absolute;
+		overflow: visible;
+		width: 579px;
+		height: 199px;
+		left: 0px;
+		top: 0px;
+	}
+	.jakob_owens_303084_unsplash:hover {
+		transform: scale(1.035);
+	}
+	.about_pic {
+		position: absolute;
+		overflow: visible;
+		width: 591px;
+		height: 233px;
+		left: 73px;
+		top: 126px;
+	}
+	.about_pic:hover {
+		transform: scale(1.035);
+	}
+	#buble {
+		opacity: 0.14;
+		position: absolute;
+		width: 610px;
+		height: 645px;
+		left: -218px;
+		top: 1884px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		filter: blur(30px);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 428px;
+		left: 0px;
+		top: 217px;
+	}
+	#Ellipse_2 {
+		filter: blur(30px);
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 196px;
+		height: 200px;
+		left: 232px;
+		top: 123px;
+	}
+	#Ellipse_3 {
+		filter: blur(30px);
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		height: 82px;
+		left: 469px;
+		top: 123px;
+	}
+	#Ellipse_4 {
+		filter: blur(30px);
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 47px;
+		left: 562px;
+		top: 295px;
+	}
+	#Ellipse_5 {
+		filter: blur(30px);
+	}
+	.Ellipse_5 {
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 65px;
+		left: 393px;
+		top: 0px;
+	}
+	#BUTTON_explore {
+		position: absolute;
+		width: 176px;
+		height: 61px;
+		left: 1017px;
+		top: 484px;
+		overflow: visible;
+	}
+	#BUTTON_explore:hover {
+		transform: scale(1.035);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 186px;
+		height: 71px;
+		left: 0px;
+		top: 0px;
+	}
+	.button{
+		width: 176px;
+		height: 61px;
+		background: transparent;
+		border-color: white;
+		border: 5px solid;
+		color: white;
+		cursor: pointer;
+	}
+	#explore_now {
+		position: absolute;
+		left: 21px;
+		top: 11px;
+		overflow: visible;
+		width: 128px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#galery {
+		position: absolute;
+		width: 1004px;
+		height: 875px;
+		left: 138px;
+		top: 2052px;
+		overflow: visible;
+	}
+	#gallery {
+		position: absolute;
+		left: 883px;
+		top: 0px;
+		overflow: visible;
+		width: 122px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 46px;
+		color: rgba(12,23,40,1);
+	}
+	.gal1 {
+		filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 1034px;
+		height: 356px;
+		left: 0px;
+		top: 105px;
+	}
+	.gal1:hover {
+		transform: scale(1.035);
+	}
+	.gal5 {
+		filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 358px;
+		height: 355px;
+		left: 0px;
+		top: 439px;
+	}
+	.gal5:hover {
+		transform: scale(1.035);
+	}
+	.gal4 {
+		filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 357px;
+		height: 355px;
+		left: 338px;
+		top: 439px;
+	}
+	.gal4:hover {
+		transform: scale(1.035);
+	}
+	.gal2 {
+		filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 358px;
+		height: 355px;
+		left: 676px;
+		top: 439px;
+	}
+	.gal2:hover {
+		transform: scale(1.035);
+	}
+	#BUTTON_find {
+		position: absolute;
+		width: 144px;
+		height: 61px;
+		left: 860px;
+		top: 814px;
+		overflow: visible;
+	}
+	.button-findmore {
+		position: absolute;
+		overflow: visible;
+		width: 144px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+		border: 5px solid;
+		background: transparent;
+		cursor: pointer;
+	}
+	#find_more {
+		position: absolute;
+		left: 21px;
+		top: 12px;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,136,17,1);
+	}
+	.footer_soc {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 111px;
+		left: 0px;
+		top: 3573px;
+	}
+	.explorrr {
+		position: absolute;
+		overflow: visible;
+		width: 463px;
+		height: 232px;
+		left: 731px;
+		top: 182px;
+	}
+	#our_services {
+		position: absolute;
+		width: 866px;
+		height: 533.912px;
+		left: 207px;
+		top: 1438.088px;
+		overflow: visible;
+	}
+	#divider {
+		position: absolute;
+		width: 631.905px;
+		height: 39px;
+		left: 126.99px;
+		top: 85.912px;
+		overflow: visible;
+	}
+	.swim {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 39px;
+		left: 261.01px;
+		top: 0px;
+	}
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		width: 228.619px;
+		height: 5px;
+		left: 0px;
+		top: 19.63px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 228.619px;
+		height: 5px;
+		left: 403.286px;
+		top: 19.63px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#OUR_SERVICES {
+		position: absolute;
+		left: 333.354px;
+		top: 0px;
+		overflow: visible;
+		width: 195px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 46px;
+		color: rgba(12,23,40,1);
+	}
+	.Rectangle_2_A0_Rectangle_26 {
+		filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 926px;
+		height: 411px;
+		left: 0px;
+		top: 182.912px;
+	}
+	#equipment {
+		position: absolute;
+		width: 152px;
+		height: 227px;
+		left: 107px;
+		top: 244.912px;
+		overflow: visible;
+	}
+	
+	#ID037_aqualung {
+		position: absolute;
+		width: 117.736px;
+		height: 117.736px;
+		left: 17px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID037_aqualung:hover {
+		position: absolute;
+		width: 117.736px;
+		height: 117.736px;
+		left: 17px;
+		top: 0px;
+		overflow: visible;
+		filter: brightness(100);
+	}
+
+	
+	#EQUIPMENT {
+		position: absolute;
+		left: 24px;
+		top: 132px;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,136,17,1);
+	}
+	#We_Have_The_Best_Quality__comp {
+		position: absolute;
+		left: 0px;
+		top: 182px;
+		overflow: visible;
+		width: 153px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,136,17,1);
+	}
+	#convenient {
+		position: absolute;
+		width: 174.208px;
+		height: 226.65px;
+		left: 346px;
+		top: 245.262px;
+		overflow: visible;
+	}
+
+	#ID041_yatch {
+		position: absolute;
+		width: 174.208px;
+		height: 117.386px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID041_yatch:hover {
+		position: absolute;
+		width: 174.208px;
+		height: 117.386px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		filter: brightness(100);
+	}
+	
+	
+	#CONVeNIENT {
+		position: absolute;
+		left: 31px;
+		top: 131.65px;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,136,17,1);
+	}
+	#COmfortable__clean__and_safety {
+		position: absolute;
+		left: 28px;
+		top: 181.65px;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,136,17,1);
+	}
+	#hospitality {
+		position: absolute;
+		width: 163.417px;
+		height: 219.72px;
+		left: 624.583px;
+		top: 241.192px;
+		overflow: visible;
+	}
+
+	
+	#ID025_sailor_hat {
+		position: absolute;
+		width: 163.417px;
+		height: 117.456px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID025_sailor_hat:hover {
+		position: absolute;
+		width: 163.417px;
+		height: 117.456px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		filter: brightness(100);
+	}
+
+	#HOSPITALITY {
+		position: absolute;
+		left: 25.417px;
+		top: 135.72px;
+		overflow: visible;
+		width: 114px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,136,17,1);
+	}
+	#Professionals_crew___friendly_ {
+		position: absolute;
+		left: 20.417px;
+		top: 189.72px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,136,17,1);
+	}
+	#about_us {
+		position: absolute;
+		width: 320px;
+		height: 341px;
+		left: 138px;
+		top: 981px;
+		overflow: visible;
+		text-decoration: none;
+	}
+	#ABOUT_US {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 46px;
+		color: rgba(12,23,40,1);
+	}
+	#GO_dive_is_a_company_that_serv {
+		position: absolute;
+		left: 0px;
+		top: 73px;
+		overflow: visible;
+		width: 314px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,136,17,1);
+	}
+	#Our_Mission_is_to_make_your_va {
+		position: absolute;
+		left: 0px;
+		top: 153px;
+		overflow: visible;
+		width: 321px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,136,17,1);
+	}
+	#Let_s_get_close_to_us_and_make {
+		position: absolute;
+		left: 0px;
+		top: 234px;
+		overflow: visible;
+		width: 290px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(12,23,40,1);
+	}
+
+	#CONTACT_US {
+		position: absolute;
+		left: 23px;
+		top: 312px;
+		overflow: visible;
+		width: 106px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,136,17,1);
+	}
+
+	#navbar {
+		position: absolute;
+		width: 461px;
+		height: 19px;
+		left: 733px;
+		top: 57px;
+		overflow: visible;
+	}
+	#navbar:hover{
+		position: absolute;
+		width: 461px;
+		height: 19px;
+		left: 733px;
+		top: 57px;
+		overflow: visible;
+		cursor: pointer;
+
+	}
+	#About_Us {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#About_Us:hover {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,136,17,1);
+	}
+	
+	#Our_Services {
+		position: absolute;
+		left: 127px;
+		top: 0px;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Our_Services:hover {
+		position: absolute;
+		left: 127px;
+		top: 0px;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,136,17,1);
+	}
+	#Gallery {
+		position: absolute;
+		left: 281px;
+		top: 0px;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Gallery:hover {
+		position: absolute;
+		left: 281px;
+		top: 0px;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,136,17,1);
+	}
+	#Contact__ {
+		position: absolute;
+		left: 391px;
+		top: 0px;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Contact__:hover {
+		position: absolute;
+		left: 391px;
+		top: 0px;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,136,17,1);
+	}
+	#contact_us {
+		position: absolute;
+		width: 997px;
+		height: 368px;
+		left: 145px;
+		top: 3135px;
+		overflow: visible;
+	}
+	#email {
+		position: absolute;
+		width: 331px;
+		height: 57.275px;
+		left: 8px;
+		top: 294.725px;
+		overflow: visible;
+	}
+	#Helobali_godive_com {
+		position: absolute;
+		left: 54px;
+		top: 18.275px;
+		overflow: visible;
+		width: 278px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(12,23,40,1);
+	}
+	#ID007_note {
+		position: absolute;
+		width: 26.848px;
+		height: 57.275px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+
+
+	#maps {
+		position: absolute;
+		width: 475px;
+		height: 281.333px;
+		left: 522px;
+		top: 86.667px;
+		overflow: visible;
+	}
+	.map {
+		position: absolute;
+		overflow: visible;
+		width: 421px;
+		height: 275px;
+		left: 54px;
+		top: 6.333px;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 421px;
+		height: 39px;
+		left: 54px;
+		top: 242.333px;
+	}
+	#Open_On_Maps {
+		position: absolute;
+		left: 73px;
+		top: 252.333px;
+		overflow: visible;
+		width: 110px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#ID026_compass {
+		position: absolute;
+		width: 107.933px;
+		height: 107.933px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID026_compass:hover {
+		position: absolute;
+		width: 107.933px;
+		height: 107.933px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		filter: brightness(100);
+	}
+	
+	#COntact {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 124px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 46px;
+		color: rgba(12,23,40,1);
+	}
+	#You_can_ring_our_bell_at_this_ {
+		position: absolute;
+		left: 0px;
+		top: 146px;
+		overflow: visible;
+		width: 296px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(12,23,40,1);
+	}
+	#call {
+		position: absolute;
+		width: 295px;
+		height: 57.952px;
+		left: 0px;
+		top: 222.182px;
+		overflow: visible;
+	}
+	#ID049_bell {
+		position: absolute;
+		width: 43.011px;
+		height: 57.952px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+
+	
+	#_62_82113445766 {
+		position: absolute;
+		left: 62px;
+		top: 12.818px;
+		overflow: visible;
+		width: 234px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 27px;
+		color: rgba(12,23,40,1);
+	}
+
+	#We_will_wait_you_here_and_toge {
+		position: absolute;
+		left: 0px;
+		top: 93px;
+		overflow: visible;
+		width: 404px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(12,23,40,1);
+	}
+	.you {
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		height: 44px;
+		left: 913px;
+		top: 3607px;
+	}
+	.fb {
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		height: 44px;
+		left: 1015px;
+		top: 3607px;
+	}
+	.insta {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1099px;
+		top: 3607px;
+	}
+	.button-about{
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		height: 37px;
+		left: 0px;
+		top: 304px;
+		border: 3px solid;
+		background: transparent;
+		cursor: pointer;
+	}
+	.button-about:hover{
+		border-color: #FF8811;
+	}
+	
+</style>
+</head>
+<body>
+<div id="godive_timedoor" class="">
+	<svg class="banner">
+		<pattern elementId="banner_A0_Rectangle_2" id="banner_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="banner_A0_Rectangle_2_pattern.png" xlink:href="banner_A0_Rectangle_2_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#banner_A0_Rectangle_2_pattern)" id="banner" rx="0" ry="0" x="0" y="0" width="1389" height="931">
+		</rect>
+	</svg>
+	<svg class="logo">
+		<pattern elementId="logo_A0_Rectangle_4" id="logo_A0_Rectangle_4_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="logo_A0_Rectangle_4_pattern.png" xlink:href="logo_A0_Rectangle_4_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#logo_A0_Rectangle_4_pattern)" id="logo" rx="0" ry="0" x="0" y="0" width="175" height="53">
+		</rect>
+	</svg>
+	<svg class="foot">
+		<pattern elementId="foot_A0_Rectangle_6" id="foot_A0_Rectangle_6_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="foot_A0_Rectangle_6_pattern.png" xlink:href="foot_A0_Rectangle_6_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#foot_A0_Rectangle_6_pattern)" id="foot" rx="0" ry="0" x="0" y="0" width="1296" height="863">
+		</rect>
+	</svg>
+	<div id="image_about">
+		<svg class="jakob_owens_303084_unsplash">
+			<pattern elementId="jakob_owens_303084_unsplash_A0_Rectangle_8" id="jakob_owens_303084_unsplash_A0_Rectangle_8_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="jakob_owens_303084_unsplash_A0_Rectangle_8_pattern.png" xlink:href="jakob_owens_303084_unsplash_A0_Rectangle_8_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#jakob_owens_303084_unsplash_A0_Rectangle_8_pattern)" id="jakob_owens_303084_unsplash" rx="0" ry="0" x="0" y="0" width="579" height="199">
+			</rect>
+		</svg>
+		<svg class="about_pic">
+			<pattern elementId="about_pic_A0_Rectangle_10" id="about_pic_A0_Rectangle_10_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="about_pic_A0_Rectangle_10_pattern.png" xlink:href="about_pic_A0_Rectangle_10_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#about_pic_A0_Rectangle_10_pattern)" id="about_pic" rx="0" ry="0" x="0" y="0" width="591" height="233">
+			</rect>
+		</svg>
+	</div>
+	<div id="buble">
+		<svg class="Ellipse_1">
+			<ellipse fill="rgba(0,128,255,1)" id="Ellipse_1" rx="221.5" ry="214" cx="221.5" cy="214">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_2">
+			<ellipse fill="rgba(0,128,255,1)" id="Ellipse_2" rx="98" ry="100" cx="98" cy="100">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_3">
+			<ellipse fill="rgba(0,128,255,1)" id="Ellipse_3" rx="41.5" ry="41" cx="41.5" cy="41">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_4">
+			<ellipse fill="rgba(0,128,255,1)" id="Ellipse_4" rx="24" ry="23.5" cx="24" cy="23.5">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_5">
+			<ellipse fill="rgba(0,128,255,1)" id="Ellipse_5" rx="32" ry="32.5" cx="32" cy="32.5">
+			</ellipse>
+		</svg>
+	</div>
+	<div id="BUTTON_explore">
+		<button type="button" class="button">
+		</button>
+		
+		<div id="explore_now">
+			<span>explore</span><span style="color:rgba(255,136,17,1);"> now</span>
+		</div>
+	</div>
+	<div id="galery">
+		<div id="gallery">
+			<span>gallery</span>
+		</div>
+		<svg class="gal1">
+			<pattern elementId="gal1_A0_Rectangle_13" id="gal1_A0_Rectangle_13_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="gal1_A0_Rectangle_13_pattern.png" xlink:href="gal1_A0_Rectangle_13_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#gal1_A0_Rectangle_13_pattern)" id="gal1" rx="0" ry="0" x="0" y="0" width="1004" height="326">
+			</rect>
+		</svg>
+		<svg class="gal5">
+			<pattern elementId="gal5_A0_Rectangle_15" id="gal5_A0_Rectangle_15_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="gal5_A0_Rectangle_15_pattern.png" xlink:href="gal5_A0_Rectangle_15_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#gal5_A0_Rectangle_15_pattern)" id="gal5" rx="0" ry="0" x="0" y="0" width="328" height="325">
+			</rect>
+		</svg>
+		<svg class="gal4">
+			<pattern elementId="gal4_A0_Rectangle_17" id="gal4_A0_Rectangle_17_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="gal4_A0_Rectangle_17_pattern.png" xlink:href="gal4_A0_Rectangle_17_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#gal4_A0_Rectangle_17_pattern)" id="gal4" rx="0" ry="0" x="0" y="0" width="327" height="325">
+			</rect>
+		</svg>
+		<svg class="gal2">
+			<pattern elementId="gal2_A0_Rectangle_19" id="gal2_A0_Rectangle_19_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="gal2_A0_Rectangle_19_pattern.png" xlink:href="gal2_A0_Rectangle_19_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#gal2_A0_Rectangle_19_pattern)" id="gal2" rx="0" ry="0" x="0" y="0" width="328" height="325">
+			</rect>
+		</svg>
+		<div id="BUTTON_find">
+			<button type="button" class="button-findmore">
+		</button>
+			<div id="find_more">
+				<span>find more</span>
+			</div>
+		</div>
+	</div>
+	<svg class="footer_soc">
+		<rect fill="rgba(12,23,40,1)" id="footer_soc" rx="0" ry="0" x="0" y="0" width="1280" height="111">
+		</rect>
+	</svg>
+	<svg class="explorrr">
+		<pattern elementId="explorrr_A0_Rectangle_23" id="explorrr_A0_Rectangle_23_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="explorrr_A0_Rectangle_23_pattern.png" xlink:href="explorrr_A0_Rectangle_23_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#explorrr_A0_Rectangle_23_pattern)" id="explorrr" rx="0" ry="0" x="0" y="0" width="463" height="232">
+		</rect>
+	</svg>
+	<div id="our_services">
+		<div id="divider">
+			<svg class="swim">
+				<pattern elementId="swim_A0_Rectangle_25" id="swim_A0_Rectangle_25_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="swim_A0_Rectangle_25_pattern.png" xlink:href="swim_A0_Rectangle_25_pattern.png"></image>
+				</pattern>
+				<rect fill="url(#swim_A0_Rectangle_25_pattern)" id="swim" rx="0" ry="0" x="0" y="0" width="108" height="39">
+				</rect>
+			</svg>
+			<svg class="Line_1" viewBox="0 0 228.619 5">
+				<path fill="transparent" stroke="rgba(255,136,17,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_1" d="M 0 0 L 228.618896484375 0">
+				</path>
+			</svg>
+			<svg class="Line_2" viewBox="0 0 228.619 5">
+				<path fill="transparent" stroke="rgba(255,136,17,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_2" d="M 0 0 L 228.618896484375 0">
+				</path>
+			</svg>
+		</div>
+		<div id="OUR_SERVICES">
+			<span>OUR SERVICES</span>
+		</div>
+		<svg class="Rectangle_2_A0_Rectangle_26">
+			<rect fill="rgba(12,23,40,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2_A0_Rectangle_26" rx="30" ry="30" x="0" y="0" width="866" height="351">
+			</rect>
+		</svg>
+		<div id="equipment">
+			<div id="ID037_aqualung">
+				<img x="0" y="0" width="100%" height="100%" src="037-aqualung.svg"></img>
+			</div>
+			<div id="EQUIPMENT">
+				<span>EQUIPMENT</span>
+			</div>
+			<div id="We_Have_The_Best_Quality__comp">
+				<span>We Have The Best Quality<br/>,complete and hygienic<br/>Equipment, </span>
+			</div>
+		</div>
+		<div id="convenient">
+			<div id="ID041_yatch">
+				<img x="0" y="0" width="100%" height="100%" src="041-yatch.svg"></img>
+			</div>
+			<div id="CONVeNIENT">
+				<span>CONVeNIENT</span>
+			</div>
+			<div id="COmfortable__clean__and_safety">
+				<span>COmfortable, clean <br/>and safety <br/>accommodation </span>
+			</div>
+		</div>
+		<div id="hospitality">
+			<div id="ID025_sailor_hat">
+				<img x="0" y="0" width="100%" height="100%" src="025-sailor hat.svg"></img>
+			</div>
+			<div id="HOSPITALITY">
+				<span>HOSPITALITY</span>
+			</div>
+			<div id="Professionals_crew___friendly_">
+				<span>Professionals crew, <br/>friendly and fun. </span>
+			</div>
+		</div>
+	</div>
+	<div id="about_us">
+		<div id="ABOUT_US">
+			<span>ABOUT US</span>
+		</div>
+		<div id="GO_dive_is_a_company_that_serv">
+			<span>GO-dive</span><span style="color:rgba(12,23,40,1);"> is a company that serves <br/>snorkeling and scuba-diving activities<br/>in Tulamben </span><span>BALI</span><span style="color:rgba(12,23,40,1);"> since 2019.</span>
+		</div>
+		<div id="Our_Mission_is_to_make_your_va">
+			<span>Our Mission</span><span style="color:rgba(12,23,40,1);"> is to make your vacation to <br/>be more fun, comfortable and <br/>unforgettable.</span>
+		</div>
+		<div id="Let_s_get_close_to_us_and_make">
+			<span>Let's get close to us and make your </span><br><span style="color:rgba(255,136,17,1);">Dream </span><span>in </span><span style="color:rgba(255,136,17,1);">Bali</span><span> came true!!</span>
+		</div>
+		<button type="button" class="button-about">
+		</button>
+		<div id="CONTACT_US">
+			<span>CONTACT US</span>
+		</div>
+	</div>
+	<div id="navbar">
+		<div id="About_Us">
+			<span>About Us</span>
+		</div>
+		<div id="Our_Services">
+			<span>Our Services</span>
+		</div>
+		<div id="Gallery">
+			<span>Gallery</span>
+		</div>
+		<div id="Contact__">
+			<span>Contact  </span>
+		</div>
+	</div>
+	<div id="contact_us">
+		<div id="email">
+			<div id="Helobali_godive_com">
+				<span>Helobali@godive.com</span>
+			</div>
+			<div id="ID007_note">
+				<img x="0" y="0" width="100%" height="100%" src="007-note.svg"></img>
+			</div>
+		</div>
+		<div id="maps">
+			<svg class="map">
+				<pattern elementId="map_A0_Rectangle_29" id="map_A0_Rectangle_29_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="map_A0_Rectangle_29_pattern.png" xlink:href="map_A0_Rectangle_29_pattern.png"></image>
+				</pattern>
+				<rect fill="url(#map_A0_Rectangle_29_pattern)" id="map" rx="0" ry="0" x="0" y="0" width="421" height="275">
+				</rect>
+			</svg>
+			<svg class="Rectangle_5">
+				<rect fill="rgba(12,23,40,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="421" height="39">
+				</rect>
+			</svg>
+			<div id="Open_On_Maps">
+				<span>Open On Maps</span>
+			</div>
+			<div id="ID026_compass">
+					<img x="0" y="0" width="100%" height="100%" src="026-compass.svg"></img>
+			</div>
+		</div>
+		<div id="COntact">
+			<span>COntact</span>
+		</div>
+		<div id="You_can_ring_our_bell_at_this_">
+			<span>You can ring our bell at this number or <br/>send us an email:</span>
+		</div>
+		<div id="call">
+			<div id="ID049_bell">
+					<img x="0" y="0" width="100%" height="100%" src="049-bell.svg"></img>
+			</div>
+			<div id="_62_82113445766">
+				<span>+62 82113445766</span>
+			</div>
+		</div>
+		<div id="We_will_wait_you_here_and_toge">
+			<span>We will wait you here and together we will make your <br/>day more enjoyable and unforgettable.</span>
+		</div>
+	</div>
+	<svg class="you">
+		<pattern elementId="you_A0_Rectangle_32" id="you_A0_Rectangle_32_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="you_A0_Rectangle_32_pattern.png" xlink:href="you_A0_Rectangle_32_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#you_A0_Rectangle_32_pattern)" id="you" rx="0" ry="0" x="0" y="0" width="62" height="44">
+		</rect>
+	</svg>
+	<svg class="fb">
+		<pattern elementId="fb_A0_Rectangle_34" id="fb_A0_Rectangle_34_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="fb_A0_Rectangle_34_pattern.png" xlink:href="fb_A0_Rectangle_34_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#fb_A0_Rectangle_34_pattern)" id="fb" rx="0" ry="0" x="0" y="0" width="44" height="44">
+		</rect>
+	</svg>
+	<svg class="insta">
+		<pattern elementId="insta_A0_Rectangle_36" id="insta_A0_Rectangle_36_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="insta_A0_Rectangle_36_pattern.png" xlink:href="insta_A0_Rectangle_36_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#insta_A0_Rectangle_36_pattern)" id="insta" rx="0" ry="0" x="0" y="0" width="43" height="43">
+		</rect>
+	</svg>
+</div>
+</body>
+</html>
